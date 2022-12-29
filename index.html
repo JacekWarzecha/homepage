@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Szczęście</title>
+    <link rel="icon" href="images/ikona192.jpg" />
+    <meta propety="og:image" content="images/oG.jpg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/header.css" rel="stylesheet" />
+    <link href="css/navigation.css" rel="stylesheet" />
+    <link href="css/sectionLoveMoney.css" rel="stylesheet" />
+    <link href="css/containerCrypto.css" rel="stylesheet" />
+    <link href="css/containerList.css" rel="stylesheet" />
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="body">
+    <header class="header">
+      <h1>Szczęście</h1>
+      <button class="js-header__button header__button">
+        Włącz <span class="js-themeName"> ciemny</span> motyw
+      </button>
+    </header>
+
+    <main class="main">
+      <nav class="navigation">
+        <ul class="js-navigation-list navigation__list">
+          <li>
+            <a href="#loveOrMoney" class="navigation__listItem">Love / Money</a>
+          </li>
+          <li>
+            <a href="#cryptoTable" class="navigation__listItem">
+              Crypto Table</a
+            >
+          </li>
+          <li>
+            <a href="#cryptoList" class="navigation__listItem"> Crypto List</a>
+          </li>
+        </ul>
+      </nav>
+
+      <section class="sectionLoveMoney" id="loveOrMoney">
+        <h2 class="sectionLoveMoney__h2">
+          Co w zasadzie przynosi Ci szczęście?
+        </h2>
+
+        <article class="js-sectionLoveMoney-love sectionLoveMoney__love">
+          <p>Jeśli to miłość?</p>
+
+          <p>
+            - kliknij:
+            <button class="js-button-love"><strong>miłość</strong></button>
+          </p>
+        </article>
+
+        <article class="js-sectionLoveMoney-money sectionLoveMoney__money">
+          <p>Jeśli to pieniądze?</p>
+
+          <p>
+            - kliknij:
+            <button class="js-button-money">
+              <strong>pieniądze</strong>
+            </button>
+          </p>
+        </article>
+
+        <article class="js-sectionLoveMoney-photo">
+          <a
+            href="https://google.pl"
+            target="_blank"
+            title="otworzy się nowa karta"
+          >
+            <img
+              class="js-sectionLoveMoney__photo sectionLoveMoney__photo"
+              src="https://i.postimg.cc/nrH4GWpX/serducho.jpg"
+              alt="serce"
+            />
+          </a>
+        </article>
+
+        <button class="js-sectionLoveMoney-button">Usuń to zdjęcie.</button>
+      </section>
+
+      <section id="cryptoTable">
+        <div class="containerCrypto">
+          <table class="containerCrypto__table">
+            <caption class="containerCrypto__caption">
+              RESULTS
+            </caption>
+            <theader>
+              <tr>
+                <th
+                  class="containerCrypto__tableCell containerCrypto__tableHeader"
+                  scope="col"
+                >
+                  name
+                </th>
+                <th
+                  class="containerCrypto__tableCell containerCrypto__tableHeader"
+                  scope="col"
+                >
+                  time
+                </th>
+                <th
+                  class="containerCrypto__tableCell containerCrypto__tableHeader"
+                  scope="col"
+                >
+                  profit
+                </th>
+              </tr>
+            </theader>
+            <tbody>
+              <tr>
+                <th
+                  class="containerCrypto__tableCell containerCrypto__tableHeader"
+                  scope="row"
+                >
+                  BTC
+                </th>
+                <td class="containerCrypto__tableCell" rowspan="3">60 d</td>
+                <td class="containerCrypto__tableCell">+200</td>
+              </tr>
+              <tr>
+                <th
+                  class="containerCrypto__tableCell containerCrypto__tableHeader"
+                  scope="row"
+                >
+                  ETH
+                </th>
+                <td class="containerCrypto__tableCell">+100</td>
+              </tr>
+              <tr>
+                <th
+                  class="containerCrypto__tableCell containerCrypto__tableHeader"
+                  scope="row"
+                >
+                  MATIC
+                </th>
+                <td
+                  class="containerCrypto__tableCell js-containerCrypto__Variable"
+                >
+                  +100
+                </td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <th
+                  class="containerCrypto__tableCell containerCrypto__tableHeader"
+                  scope="row"
+                  colspan="2"
+                >
+                  razem
+                </th>
+                <td class="containerCrypto__tableCell">
+                  <strong class="js-containerCrypto__howMuch">+275</strong>
+                </td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </section>
+
+      <section id="cryptoList">
+        <div class="js-container-list containerList">
+          <ul class="containerList__list">
+            <p>Ciekawe aktywa cyfrowe:</p>
+            <li>
+              Old:
+              <ul>
+                <li>BTC</li>
+                <li>BTG</li>
+              </ul>
+            </li>
+
+            <li>
+              Fresh:
+              <ul>
+                <li>DOT</li>
+                <li>MATIC</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>wszelkie prawa zastrzeżone</p>
+    </footer>
+  </body>
+</html>

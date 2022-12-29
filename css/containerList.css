@@ -1,0 +1,18 @@
+.containerList {
+    margin: auto auto 50px auto;
+    background-color: #ffffff;
+    position: relative;
+    box-shadow: inset 0px 0px 50px 4px #f21313;
+    max-width: 500px;
+    border: 8px solid green;
+    display: flex;
+    justify-content: center;
+  }
+
+  .containerList__list{
+    list-style: square;
+  }
+
+  .js-containerList__backgroundcolor {
+    background-color: #b39b14;
+  }

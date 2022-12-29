@@ -1,0 +1,39 @@
+.sectionLoveMoney {
+  max-width: 500px;
+  margin: 75px auto;
+  text-align: center;
+}
+
+
+.sectionLoveMoney__h2{
+  justify-content: left;
+  display: flex;
+}
+
+.sectionLoveMoney__love {
+  background-color: #ce0808;
+  outline: 5px outset black;
+  border: 4px inset rgb(0, 0, 0);
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+.sectionLoveMoney__money {
+  background-color: rgb(74, 179, 4);
+  outline: 5px solid black;
+  border: 4px inset rgb(0, 0, 0);
+}
+
+.sectionLoveMoney__photo {
+  max-width: 500px;
+  display: inline-block;
+  margin: 50px auto 5px auto;
+}
+
+/* cokolwiek próbuje zrobić z text-decoration by zmieniało się pod wpływem kliknięcia w js i nic */
+
+.js-sectionLoveMoney-text-decoration {
+  font-weight: bold;
+  width: 300px;
+  background-color: green;
+}

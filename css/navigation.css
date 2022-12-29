@@ -1,0 +1,29 @@
+.navigation {
+    margin: 1% auto;
+  }
+
+  .navigation__list {
+    list-style-type: none;
+    display: flex;
+  }
+
+  .navigation__listItem {
+    background-color: #0c0c0b;
+    text-decoration: none;
+    color: #b39b14;
+    padding: 12px;
+    margin: 4px;
+    font-size: 18px;
+  }
+
+  .navigation__listItem:hover {
+    background-color: rgb(3, 26, 151);
+  }
+  
+  .navigation__listItem:focus {
+    outline: 4px solid currentColor;
+  }
+
+  .js-navigation__outline {
+    outline: 5px outset #dddfd9;
+  }

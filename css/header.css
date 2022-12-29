@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header__button {
+    max-width: 175px;
+    max-height: 35px;
+    margin: 15px;
+  }
+
+  .js-header__dark {
+    color:#ffffff;
+    background-color: #0c0c0b;
+  }

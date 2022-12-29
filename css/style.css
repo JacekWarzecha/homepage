@@ -1,0 +1,33 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  ::after,
+  ::before {
+    box-sizing: inherit;
+  }
+  
+  .body {
+    font-family: "Josefin Sans", sans-serif;
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1% 1% 1% 1%;
+    border: 5px outser #b5b9af;
+    -webkit-box-shadow: 1px 1px 15px 1px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 1px 1px 15px 1px rgba(66, 68, 90, 1);
+    box-shadow: 1px 1px 15px 1px rgba(66, 68, 90, 1);
+  }
+
+  .bold {
+    font-weight: bold;
+  }
+  
+  .italic {
+    font-style: italic;
+  }
+  
+  .main {
+    margin-bottom: 55px;
+  }

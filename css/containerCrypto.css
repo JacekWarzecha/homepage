@@ -1,0 +1,29 @@
+.containerCrypto__table {
+    border-collapse: collapse;
+    margin-bottom: 45px;
+    width: 100%;
+  }
+  
+  .containerCrypto__caption {
+    caption-side: top;
+    padding-bottom: 10px;
+    font-weight: bold;
+  }
+
+  .containerCrypto__tableCell {
+    background-color: #566938;
+    border: 3px solid rgb(18, 16, 16);
+    padding: 15px;
+    text-align: center;
+    vertical-align: middle;
+    color:#ebd9d9;
+  }
+  
+  .containerCrypto__tableHeader {
+    color: rgb(235, 12, 243);
+    font-weight: normal;
+  }
+  
+  .containerCrypto__tableCell:hover {
+    background-color: #84a351;
+  }
