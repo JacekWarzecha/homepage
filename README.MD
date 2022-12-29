@@ -4,4 +4,6 @@
 
 ### Additionally you can get acquainted with some crypto.
 
-To visist this page you can click here ->[Tutaj będzie link]
+### To visist this page you can click here ->[link](https://jacekwarzecha.github.io/homepage/)
+
+![serce](https://raw.githubusercontent.com/JacekWarzecha/homepage/main/images/ikona.jpg)
