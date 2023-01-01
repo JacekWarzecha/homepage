@@ -1,18 +1,15 @@
 {
-  {
-    const welcome = () => {
-      console.log("hi");
-    };
+  const welcome = () => {
+    console.log("hi");
+  };
 
-    welcome();
-  }
-  //--------------------------------------------------------
-  //-----------------USUWANIE MONEY & LOVE
-  {
-    const articleOfMoney = document.querySelector(".js-sectionLoveMoney-money");
-    const articleOfLove = document.querySelector(".js-sectionLoveMoney-love");
+  welcome();
 
+  {
     const deleteMoney = () => {
+      const articleOfMoney = document.querySelector(
+        ".js-sectionLoveMoney-money"
+      );
       articleOfMoney.remove();
     };
 
@@ -22,6 +19,7 @@
     };
 
     const deleteLove = () => {
+      const articleOfLove = document.querySelector(".js-sectionLoveMoney-love");
       articleOfLove.remove();
     };
 
@@ -32,15 +30,8 @@
 
     initDeleteMoney();
     initDeleteLove();
-
-    // Chciałem zrobić coś takiego (żeby było mniej kodu) ale nie działało
-    // const deleteLove = () => {
-    //   articleOfLove.remove();
-    //   buttonMoney.addEventListener("click", deleteLove);
-    // };
   }
-  //-------------------------------------------------
-  //-------------------- ZMIANA MOTYWU
+
   {
     const changeTheme = () => {
       const navigationUnList = document.querySelector(".js-navigation-list");
@@ -64,16 +55,15 @@
 
     initChangeTheme();
   }
-  //------------------------------------------------
-  //-----------------USUWANIE ZDJĘCIA
+
   {
     const buttonImg = document.querySelector(".js-sectionLoveMoney-button");
     const photoDelete = () => {
-      const IMG = document.querySelector(".js-sectionLoveMoney__photo");
+      const imageHeart = document.querySelector(".js-sectionLoveMoney__photo");
       const sectionLoveMoneyPhoto = document.querySelector(
         ".js-sectionLoveMoney-photo"
       );
-      IMG.remove();
+      imageHeart.remove();
       if (
         sectionLoveMoneyPhoto.classList.contains("js-sectionLoveMoney-button")
       ) {
@@ -89,29 +79,28 @@
 
     initPhotoDelete();
   }
-  //------------------------------------------------------------------------
-  //-------------------ZMIANA ZYSKÓW
+
   {
     const switchIncome = () => {
       const containerCryptoVariable = document.querySelector(
         ".js-containerCrypto-variable"
       ).innerText;
 
-      const containerCrypto__howMuch = document.querySelector(
+      const containerCryptoHowMuch = document.querySelector(
         ".js-containerCrypto-howMuch"
       );
       switch (containerCryptoVariable) {
         case "-25":
-          containerCrypto__howMuch.innerText = "+275";
+          containerCryptoHowMuch.innerText = "+275";
           break;
         case "-50":
-          containerCrypto__howMuch.innerText = "+250";
+          containerCryptoHowMuch.innerText = "+250";
           break;
         case "+100":
-          containerCrypto__howMuch.innerText = "400";
+          containerCryptoHowMuch.innerText = "400";
           break;
         default:
-          containerCrypto__howMuch.innerText = "300";
+          containerCryptoHowMuch.innerText = "300";
       }
     };
     switchIncome();
